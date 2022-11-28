@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="click" id="btn">
+    <button id="clickit">click here</button>
+    <p id="hoverpara">Hover Over this text</p>
+    <button id="btn1">click</button>
+    <br>
+    <b id="effect"></b>
+    <script>
+        document.getElementById("btn").onmouseover=changecoloronmouseover;
+        document.getElementById("btn").onmouseout=changecoloronmouseout;
+
+        function changecoloronmouseover(){
+            this.style.background="red";
+            this.style.color="yellow"
+        }
+
+        function changecoloronmouseout(){
+            this.style.background="black";
+            this.style.color="white" 
+        }
+
+
+        const x=document.getElementById("clickit");
+        const y=document.getElementById("hoverpara")
+
+        // x.addEventListener("click", function(){
+        //     document.getElementById("effect").innerHTML+="click event"+"<br>";
+        // })
+
+
+        y.addEventListener("mouseover", function(){
+            document.getElementById("effect").innerHTML+="mouseover event"+"<br>";
+        })
+        
+        y.addEventListener("mouseout", respondmouseout);
+
+        function respondmouseout(){
+            document.getElementById("effect").innerHTML+="mouseout event"+"<br>"
+        }
+
+
+
+        // function alert(){
+        //     document.getElementById("effect").innerHTML+="click event"+"<br>"
+        // }
+
+        x.addEventListener("click", alert)
+        x.removeEventListener("click", alert)
+
+
+        const z=document.querySelector("#btn1");
+
+        // z.onclick=()=>{
+        //     alert("clicked")
+        // }
+       
+
+        z.addEventListener("click", ()=>{
+            console.log("first");
+        })
+    </script>
+</body>
+</html>

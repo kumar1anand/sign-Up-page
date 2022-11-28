@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="clickIt">click here</button>
+    <p id="hoverpara">Hover over this Text!</p>
+    <b id="effect"></b>
+
+    <script>
+        const x=document.getElementById("clickIt");
+        const y=document.getElementById("hoverpara");
+
+        x.addEventListener("click", function(){
+            document.getElementById("effect").innerHTML+="click event"+"<br>";
+        })
+        
+        y.addEventListener("mouseover", function(){
+            document.getElementById("effect").innerHTML+="mouse over event"+"<br>"
+        })
+
+        y.addEventListener("mouseover", Respondmouseout);
+        function Respondmouseout(){
+            document.getElementById("effect").innerHTML+="mouse out event"+"<br>"
+        }
+
+    </script>
+</body>
+</html>

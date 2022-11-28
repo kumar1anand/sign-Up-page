@@ -1,0 +1,12 @@
+npm i -g @angular/cli
+ng new hello-world
+cd hello-world
+ng serve
+ng g c sample
+---------------
+ng add @angular/material || npm i @angular/material  ===> for material when we are about to use
+--------------
+ng g m layout ===> for layout generation ===> to include tamplate like:- header,footer...
+-------------
+ng g c header ===> for header creation
+-------------

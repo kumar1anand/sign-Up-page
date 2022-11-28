@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+​
+*{
+    margin:0;
+    padding:0;
+}
+​
+/* Fill your code*/
+​
+/* body{
+    background-color: #ae5dc7;
+}
+​
+#top-bar, #bottom-bar{
+    background-color: #3b1d1d;
+    width: 2000px;
+    height: 80px;
+    z-index: 0;
+} */
+​
+/* #top-bar{
+    position: sticky;
+    top: 0px;
+} */
+​
+/* #bottom-bar{
+    position: fixed;
+    bottom: 0px;
+} */
+​
+/* #mids{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        top: 180px;
+        gap: 200px;
+      
+} */
+
+/* .flavour{
+    background-color: #ae5dc7;
+    width: auto;
+    /* border: 1px #ae5dc7 solid; */
+    /* border-radius: 5px;
+    color: aliceblue;
+    align-items: center;
+} */ 
+
+
+/* #opts{
+    font-family: "Satisfy";
+    display: flex; 
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    gap: 50px;
+    width: 50%;
+} */
+/* ​
+#buy{
+    background-color: greenyellow;
+} */
+/* ​
+#b-bar{
+    background-color: black;
+    display: block;
+    position: absolute;
+    align-content: center;
+    top: 50px;
+    height: 170px;
+    width: 20%;
+} */
+​
+/* #cake-logo{
+    display: block;
+    position: relative;
+    top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 150;
+} */
+​.logo{
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+}
+#cakes{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+      
+}
+​
+.items, .price{
+    text-align: justify;
+    font-family: "Architects Daughter";
+    text-align: center;
+}
+​
+/* .price{
+    font-size: larger;
+    font-weight: bold;
+}
+​ */
+/* #price_list{
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+​ */
+.prices,.bill{
+    width: 300px;
+    height: 300px;
+    background: url("./assets/list_template.png");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.prices,.bill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15rem;
+}
+
+.name{
+    background:#333;
+    width:250px;
+    position: absolute;
+    top:10px;
+    left:calc(50vw - 125px);
+    border-radius: 50%;
+}
+
+.container{
+    background-color: rgb(88, 38, 38);
+    width: 100vw;
+    height: 100vh;
+}
+.main-board{
+    background-color: rgb(180, 66, 180);
+    width: 100vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+​
+.cake{
+    width:300px;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#layer1{
+    background-color:#fff;
+    width: 245px;
+    height:20%;
+    max-height:50px;
+    visibility: hidden;
+    border-radius: 15px;
+}
+
+#layer2{
+    background-color: aqua;
+    width: 200px;
+    height:20%;
+    max-height:50px;
+    left: 40px;
+    visibility: hidden;
+    border-radius: 15px;
+}
+
+#layer3{
+    background-color:blue;
+    width: 160px;
+    height:20%;
+    max-height:50px;
+    left: 60px;
+    visibility: hidden;
+    border-radius: 15px;
+}
+
+#layer4{
+    background-color:brown;
+    width: 120px;
+    height:20%;
+    max-height:50px;
+    left: 80px;
+    visibility: hidden;
+    border-radius: 15px;
+}
+
+#layer5{
+    background-color:coral;
+    width: 80px;
+    height:20%;
+    max-height:50px;
+    left: 100px;
+    visibility: hidden;
+    border-radius: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+.buttons{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons>a{
+    background-color: rgb(180, 66, 180);
+    padding:.5rem 1rem;
+    border-radius: 10px;
+}
+
+.buttons>a:hover{
+    box-shadow: #fff 1px 1px 15px;
+}
+
+/* #buy{
+    background-color: lightgreen;
+    color: #333;
+    border-color: #333;
+    border-width: 2px;
+    border-style: solid;
+} */

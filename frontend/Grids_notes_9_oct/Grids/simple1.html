@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> /*.container>box-1*4 */
+    <div class="wrapper">
+        <div>ONE</div>
+        <div>TWO</div>
+        <div>THREE</div>
+        <div>FOUR</div>
+        <div>FIVE</div>
+        
+    </div>
+    
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .wrapper>div{
+            padding: 1em;
+            background-color: gray;
+        }
+
+        .wrapper>div:nth-child(even){
+            background-color: lightgray;
+        }
+
+        .wrapper{
+            /*1. to display in both axis 2. all child elem becmes grids*/
+            display: grid;  
+            
+
+            /*2.grid-template-columns property define the width of each column.s*/
+            grid-template-columns: auto auto auto auto;  /* 4 columns */
+            grid-template-columns: 50% 50%;
+            grid-template-columns: 70% 30%;
+            grid-template-columns: 70% 100px;
+            grid-template-columns: 1fr 1fr; /* The Fr unit is an input that automatically calculates layout divisions when adjusting for gaps inside the grid.*/
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns with 1 fr*/
+            grid-template-columns: auto auto auto auto;
+            grid-template-columns: 80px 200px ;
+
+            
+            /* 3.The spaces between each column/row are called gaps. */
+            grid-column-gap: 50px;
+            grid-row-gap: 50px;
+            grid-gap: 50px 100px;/* shorthand property for the row-gap and the column-gap properties: */
+
+
+            /*4. The grid-template-rows property defines the height of each row. */
+            height: 100px; /* use height to use rows, VH= viewport height */
+            
+            grid-template-rows: 50% 50%;
+            grid-template-rows: 70% 30%;
+            grid-template-rows: auto auto ;
+            grid-auto-rows: 100px;
+            grid-auto-rows: minmax(100px, auto); /* to avoid overflow*/
+
+
+            /* 4.  The justify-content property is used to align the whole grid inside the container. */
+            justify-content: start,end,center,stretch; /* horizontal , x-axis, comment to templte colum to check o/p */
+            justify-items: start,end,center,stretch;
+
+
+            /*5 The align-content property is used to vertically align the whole grid inside the container. */
+           align-items: start,end,center,stretch;
+           align-content: start,end,center,stretch,space-around,space-between;
+
+
+            /*6. shorthand for justify-items and align-items is place-items */
+            place-items: start,end,center,stretch;
+
+            
+             /*7. shorthand for justify-contents and align-icontents is place-icontents */
+             place-content: start,end,center,stretch,space-around,space-between;
+
+            /* grid columns
+            grid rows
+            grid-gap: 1em; */
+
+        }
+    </style>
+</body>
+</html>

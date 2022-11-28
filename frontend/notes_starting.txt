@@ -1,0 +1,446 @@
+.HTML TAGS< ELEMENTS , ATTRIBuTES
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- self closing tags  <img scr="" /> <br><hr /><input>
+    couple tags <h1></h1>-->
+ 
+    <p style="text-align:right">Hello world</p>
+    <p style="color:red;" >This is a red paragraph.</p>
+    <h1 align="right">WELCOME</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, blanditiis? Quia quaerat blanditiis fugit, nam asperiores, ipsa esse, pariatur deserunt cupiditate aperiam similique minus quam totam nobis nihil dignissimos at.</p>
+    <!-- headings -->
+    <h1>hello</h1>
+    <h2>hello</h2>
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <h5>hello</h5>
+    <h6>hello</h6>
+ 
+    <!-- paragraph -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Vero, blanditiis? Quia quaerat blanditiis fugit, nam asperiores, ipsa esse, pariatur deserunt cupiditate aperiam similique minus quam totam nobis nihil dignissimos at.</p>
+ 
+    <!-- centering Tags -->
+    <center>
+        <p>HEY</p>
+        <p>Hello</p>
+    </center>
+ 
+    <!-- horizontal tags -->
+    <hr />
+ 
+    <!-- preserve tags -->
+    <p>hello world <pre>HEllo </pre> heya</p>
+ 
+    <pre>
+        function testFunction(strText){
+            alert(strText)
+        }
+    </pre>
+ 
+    <!-- nonbreaking tags<a></a> -->
+    <p class="h1">An example of this tech appears in the movies  "12&nbsp;Angry&nbsp;men"</p>
+ 
+    <!-- nested elements -->
+    <h1>This is <i> Italic </i> heading</h1>
+    <h1>This is <u> underline</u> heading</h1>
+ 
+    <!-- core attributes -->
+    <!-- id
+    class
+    style
+    title -->
+    <h3 title="hello HTML!">titled heading</h3>
+    <p id="html">html</p>
+    <p class="h1">heading</p>
+    <p class="h1">Hello world</p>
+    </body>
+</html>
+ 
+ 
+------------------------------------------------------------------- 
+
+3.internationalization attributes
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <!-- internationalization attributes -- XHTML> -->
+        <!-- dir
+        lang
+        xml:lang -->
+       
+        <!-- xml:lang
+       align=l,r,c
+       valign=t.m.b
+       bgcolor
+       background
+       id
+       class
+        width
+        height
+        title
+        size
+        -->
+ 
+ 
+    hello world
+</body>
+</html>
+----------------------------------------------------------------------------
+3.HTML formatting 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML formating -->
+    <!-- bold -->
+    <p>Hello <b> World </b> Goodday</p>
+    <!-- italic -->
+    <p>Hello <i> World </i> Goodday</p>
+    <!-- underline -->
+    <p>Hello <u> World </u> Goodday</p>
+    <!-- strike -->
+    <p>Hello <strike> World </strike> Goodday</p>
+    <!-- monospaced -->
+    <p>Hello <tt> World </tt> Goodday</p>
+    <!-- superscript -->
+    <p>a <sup> a+b </sup> </p>
+    <!-- subscript -->
+    <p>a <sub> a+b </sub> </p>
+    <!-- inserted text / deleted text-->
+    <p>i want to drink <del> Cola</del> <ins> Pepsi</ins></p>
+    <!-- larger text -->
+    <p>Hello <big> World </big> Goodday</p>
+    <!-- smaller text -->
+    <p>Hello <small> World </small> Goodday</p>
+ 
+<!-- block=p,h,div, inline= a,img, -->
+<!-- <link href="/index.html">HOME</link> -->
+ 
+    <!-- Grouping -->
+    <!-- div=one below the other, span=one after the other -->
+    <h1>PERSONAL WEBSITE</h1>
+    <div id="menu" align="center">
+        <a href="/index.html">HOME</a>
+        <a href="/index1.html">Contact</a>
+        <a href="/index.html">About</a>
+    </div>
+    <div id="menu" align="center">
+        <a href="/index.html">HOME</a>
+        <a href="/index1.html">Contact</a>
+        <a href="/index.html">About</a>
+    </div>
+    <div id="menu" align="center">
+        <a href="/index.html">HOME</a>
+        <a href="/index1.html">Contact</a>
+        <a href="/index.html">About</a>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam qui reprehenderit recusandae accusantium sequi quas rerum corrupti fugit et totam deleniti, magnam culpa ea quis unde aut porro voluptate. Rerum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, <span style="color: green;"> Span Tag </span>adipisicing elit. Sapiente illo minima temporibus nam quis praesentium, <span style="color: red;">Div Tag </span> magni ducimus. Sint amet vitae voluptas hic doloremque voluptatem velit dignissimos vero fugiat maiores?</p>
+    <span></span>
+</body>
+</html>
+----------------------------------------------------------
+Images, Table
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- images -->
+    <!-- <p>Hello</p>
+    <img src="p1.jpg" alt="" width="150" height="100" style="vertical-align:middle;">
+   
+    <img src="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg" width="150" height="100" border="3" alt="images" />
+ 
+    <br>
+<br> -->
+    <!-- tables -->
+    <!-- cellpadding cellspacing -->
+   
+    <!-- <table border="1" cellpadding="5" cellspacing="5">
+        <tr>
+            <th>Name </th>
+            <th>Place </th>
+            <th>Things </th>
+        </tr>
+        <tr>
+            <td>Abhi</td>
+            <td>Banglore</td>
+            <td>Computer</td>
+        </tr>
+    </table> -->
+ 
+    <!-- colspan and rowspan -->
+    <!-- <table border="1" bordercolor="green" bgcolor="yellow" background="p1.jpg">
+        <tr>
+            <th>c1</th>
+            <th>c2</th>
+            <th>c3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">R1 C1</td>
+            <td>R2 C2</td>
+            <td>R1 C3</td>
+        </tr>
+        <tr>
+            <td >R2 C2</td>
+            <td>R2 C3</td>
+        </tr>
+ 
+        <tr>
+            <td colspan="3">R3 C1</td>
+        </tr>
+    </table> -->
+ 
+    <!-- table height width -->
+    <!-- <table border="1" width="400" height="150">
+        <tr>
+            <th>Name </th>
+            <th>Place </th>
+            <th>Things </th>
+        </tr>
+        <tr>
+            <td>Abhi</td>
+            <td>Banglore</td>
+            <td>Computer</td>
+        </tr>
+    </table> -->
+ 
+    <!-- header, tbody,footer -->
+    <!-- <table border="1" width="100%">
+        <thead>
+            <tr>
+                <td colspan="4"> this is the head of the table </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4"> this is the foot of the table </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+                <td>C3</td>
+                <td>C4</td>
+            </tr>
+        </tbody>
+    </table> -->
+---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------- 
+    <!-- HTML LIST -->
+   <!-- ul,ol,dl -->
+   <!-- <ul>
+    unordered
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+   </ul>
+   <ul type="circle">
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+   </ul> -->
+ 
+<!--
+    Ordered
+   <ol type="1" start="4">
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+   </ol> -->
+ 
+   <!-- definition dl,dt,dd-->
+   <!-- <dl>
+    <dt><b>HTML</b></dt>
+    <dd>Hyper Text Markup Lang</dd>
+    <dt><b>CSS</b></dt>
+    <dd>Cascading Style Sheet</dd>
+   </dl> -->
+ 
+</body>
+</html>
+------------------------------------------------------
+------------------------------------------------------
+Selectors
+
+HTML
+
+
+
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+    <body>
+        <p>Hello world </p>
+        <div class="container">
+        <p>The Taj Mahal 'Crown of the Palace',is an ivory-white marble mausoleum on the southern bank of the river
+            Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan
+            (reigned from 1628 to 1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the
+            tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes
+             a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.
+             Construction of the mausoleum was essentially completed in 1643, but work continued on other phases of the project
+            for another 10 years. The Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost
+             estimated at the time to be around 32 million rupees, which in 2020 would be approximately 70 billion rupees
+             (about U.S. $956 million). The construction project employed some 20,000 artisans under the guidance of a board
+            of architects led by the court architect to the emperor, Ustad Ahmad Lahauri.
+       </p>
+       
+       <h1 class="demo">Contents</h1>
+       
+       <ol id="contents">
+           <li><a href="https://en.wikipedia.org/wiki/Taj_Mahal#Etymology">Etymology</a> </li>
+           <li>Architecture and design
+               <ol>
+                    <li><a href="https://en.wikipedia.org/wiki/Taj_Mahal#Tomb">Tomb</a></li>
+                    <li><a href="exterior">Exterior decoration</a></li>
+                    <li>Garden</li>
+                    <li>Outlying buildings</li>
+               </ol>
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/Taj_Mahal#Construction">Construction</a></li>
+    </ol>
+    <p>The Taj Mahal was commissioned by Shah Jahan in 1631, to be built in the memory of his wife Mumtaz Mahal,
+        who died on 17 June that year, while giving birth to their 14th child, Gauhara Begum.[9][10] Construction
+        started in 1632,[11] and the mausoleum was completed in 1648, while the surrounding buildings and garden were
+        finished five years later.[12] The imperial court documenting Shah Jahan's grief after the death of Mumtaz Mahal
+        rates the love story held as the inspiration for the <strong> Taj Mahal</strong> .
+    </p>
+        <p>The Taj Mahal was commissioned by Shah Jahan in 1631, to be built in the memory of his wife Mumtaz Mahal,
+            who died on 17 June that year, while giving birth to their 14th child, Gauhara Begum.[9][10] Construction
+            started in 1632,[11] and the mausoleum was completed in 1648, while the surrounding buildings and garden were
+            finished five years later.[12] The imperial court documenting Shah Jahan's grief after the death of Mumtaz Mahal
+            rates the love story held as the inspiration for the <strong> Taj Mahal</strong> .
+        </p>
+        <p>hey prograd</p>
+    </div>  
+ 
+ 
+</body>
+</html>
+
+Selector.css
+/* selector{
+property:value
+ 
+table{
+    border:1px solid red;
+} */
+ 
+/* Selector */
+/* universal
+class
+id
+element */
+ 
+/*
+1.universal(*)
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+ 
+/* 2. class (.)*/
+/* .c1{
+    color: red;
+} */
+ 
+/* 3.element (p,h1,h2,button, etc)
+p{
+  color: green;  
+} */
+ 
+/* 4.Id  (#)*/
+/* #i1{
+    color: blue;
+} */
+ 
+ 
+ 
+ 
+/* Adavance selector */
+/* 1. Descendant
+2.child
+3.Adjacent
+4.sibling
+5.pseduo */
+ 
+/*1. Descendant
+ li a{
+    color: red;
+}
+ 
+li li a{
+    color: red;
+} */
+ 
+/* .container ol{
+    border: 5px solid blue;
+} */
+ 
+ 
+ 
+/* 2.Child
+ 
+body>p{
+    color: red;
+}
+ 
+.container>ol{
+    border: 5px solid blue;
+}
+*/
+ 
+ 
+/* 3.Adjacent  */
+ 
+ /* ol+p+p{
+    color: red;
+ } */
+ 
+ 
+/* 4. Sibling */
+/* ol~p{
+    color: red;
+} */
+ 
+/* 5.pseduo */
+/* a:hover{
+    text-decoration: none;
+    color: red;
+ 
+} */
